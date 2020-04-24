@@ -4,6 +4,10 @@ body {
   font-size: 16px;
 }
 
+img {
+  width: 100%;
+}
+
 .movie-card-header {
   align-items: center;
   background-color: #343a40;
@@ -35,11 +39,6 @@ body {
   margin: 5px;
   overflow: hidden;
   width: 300px;
-}
-
-
-.movie-card-image {
-  width: 100%;
 }
 
 .movie-card-body {
