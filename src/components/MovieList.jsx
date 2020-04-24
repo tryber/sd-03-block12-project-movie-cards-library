@@ -11,7 +11,6 @@ class MovieList extends React.Component {
         { movies.map((element) => <MovieCard key={element.title} movieCards={element} />) }
       </div>
     );
-
   }
 }
 
