@@ -1,8 +1,18 @@
 import React from 'react';
+import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
-    return (<header><h1>Movie Cards Library</h1></header>);
+    const { movie } = this.props;
+    return (
+      <div>
+        <img src={movie.imagePath} alt="foto do jogo" />
+        <h4>{movie.title}</h4>
+        <h5>{movie.subtitle}</h5>
+        <p>{movie.storyline}</p>
+        <Rating rating={movie.rating} />
+      </div>
+    );
   }
 }
 
