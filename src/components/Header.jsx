@@ -1,14 +1,13 @@
 import React from 'react';
 
-class Rating extends React.Component {
+class Header extends React.Component {
   render() {
-    const { rating } = this.props;
     return (
-      <div className="rating">
-        {rating}
-      </div>
+      <header className="movie-card-header">
+        <h1 className="page-title">Movie Cards Library</h1>
+      </header>
     );
   }
 }
 
-export default Rating;
+export default Header;
