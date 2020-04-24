@@ -4,7 +4,7 @@ import React from 'react';
 class MovieCard extends React.Component {
   render() {
     const { title, subtitle, storyline, imagePath, rating } = this.props.cards;
-    return (
+    const movieLibCard = (
       <div className="movie-card">
         <img className="movie-card-image" src={imagePath} alt="test" />
         <div className="movie-card-body">
@@ -17,6 +17,7 @@ class MovieCard extends React.Component {
         </footer>
       </div>
     );
+    return movieLibCard;
   }
 }
 
