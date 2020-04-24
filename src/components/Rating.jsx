@@ -2,16 +2,18 @@
 import React from 'react';
 
 class Rating extends React.Component {
-    render() {
-        const rating = this.props.rating
-        console.log(rating)
-        return <div className='movie-card-rating'>
+  render() {
+    const { rating } = this.props;
+    console.log(rating);
+    return (
+      <div className="movie-card-rating">
 
-        <div className='rating'>
-            {rating}
+        <div className="rating">
+          {rating}
         </div>
-        </div>
-    }
+      </div>
+    );
+  }
 }
 
-export default Rating
+export default Rating;
