@@ -1,7 +1,10 @@
 body {
-  background-color: whitesmoke;
+  background-color: rgb(18, 52, 52);
   box-sizing: border-box;
   font-size: 16px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
 }
 
 .movie-card-header {
