@@ -2,10 +2,10 @@
 import React from 'react';
 
 class MovieCard extends React.Component {
-  render () {
+  render() {
     const { imagePath } = this.props.movie;
     return (
-      <div><img src={imagePath} alt="Ow"></img></div>
+      <div><img src={imagePath} alt="Ow" /></div>
     );
   }
 }
