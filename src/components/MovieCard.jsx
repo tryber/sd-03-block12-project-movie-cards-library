@@ -13,8 +13,10 @@ class MovieCard extends React.Component {
       },
       img: {
         width: '100%',
-      }
+      },
+
     };
+
     const movie = this.props.movie;
     return (
       <article style={styles.article}>
