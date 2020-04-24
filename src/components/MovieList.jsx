@@ -8,6 +8,7 @@ export default class MovieList extends React.Component {
       flexWrap: 'wrap',
       justifyContent: 'space-evenly',
     };
+
     return (
       <section style={style}>
         { this.props.movies.map((movie) =>

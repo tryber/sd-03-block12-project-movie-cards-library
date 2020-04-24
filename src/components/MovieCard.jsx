@@ -5,6 +5,7 @@ class MovieCard extends React.Component {
   render() {
     const styles = {
       article: {
+        backgroundColor: 'whitesmoke',
         border: 'solid 2px black',
         borderRadius: '10%',
         display: 'flex',
@@ -14,6 +15,7 @@ class MovieCard extends React.Component {
         margin: 10,
         overflow: 'hidden',
       },
+      h4: { backgroundColor: 'rgb( 171, 171, 171 )' },
       img: { width: '100%' },
     };
 
@@ -21,7 +23,7 @@ class MovieCard extends React.Component {
     return (
       <article style={styles.article}>
         <img src={movie.imagePath} alt={`cover of ${movie.title}`} style={styles.img} />
-        <h4>{movie.title}</h4>
+        <h4 style={styles.h4}>{movie.title}</h4>
         <h5>{movie.subtitle}</h5>
         <p>{movie.storyline}</p>
         <Rating rating={movie.rating} />
