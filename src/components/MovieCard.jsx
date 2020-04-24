@@ -3,15 +3,27 @@ import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
+    const styles = {
+      article: {
+        border: 'solid 2px black',
+        borderRadius: '10%',
+        flexBasis: '36%',
+        margin: 10,
+        overflow: 'hidden',
+      },
+      img: {
+        width: '100%',
+      }
+    };
     const movie = this.props.movie;
     return (
-      <li>
+      <article style={styles.article}>
+        <img src={movie.imagePath} alt={`cover of ${movie.title}`} style={styles.img} />
         <h4>{movie.title}</h4>
         <h5>{movie.subtitle}</h5>
-        <img src={movie.imagePath} alt={`cover of ${movie.title}`} />
         <p>{movie.storyline}</p>
         <Rating rating={movie.rating} />
-      </li>
+      </article>
     );
   }
 }
