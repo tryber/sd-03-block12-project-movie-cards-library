@@ -6,7 +6,9 @@ class Rating extends React.Component {
 
     return (
       <div className="movie-card-rating">
-        <p className="rating"> {rating} </p>
+        <span className="rating">
+          {rating}
+        </span>
       </div>
     );
   }
