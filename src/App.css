@@ -44,24 +44,25 @@ body {
 
 .movie-card-body {
   flex: 1 1 auto;
-  padding: 20px;
+  padding: 0;
 }
 
 .movie-card-title {
   font-size: 24px;
   font-weight: 500;
-  margin: 0 0 12px;
+  margin: 12px;
 }
 
 .movie-card-subtitle {
   color: #6c757d;
   font-size: 16px;
   font-weight: 500;
-  margin: 0 0 8px;
+  margin: 12px;
 }
 
 .movie-card-storyline {
   font-size: 14px;
+  margin: 12px;
   text-align: justify;
 }
 
@@ -79,5 +80,5 @@ body {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   display: flex;
   justify-content: flex-end;
-  padding: 12px 20px;
+  padding: 10px;
 }
