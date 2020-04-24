@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import MovieCard from './components/MovieCard';
+import MovieData from './data';
+import MovieList from './components/MovieList';
 
-function App() {
+class App extends React.Component {
+  render() {
+  const movies = MovieData;
   return (
     <div className="App">
-      {/* Sua implementação deve ficar aqui. Remova essas duas linhas e mão na massa */}
-      Hora de codar! 🚀✍️👨‍💻👩‍💻💪qs
+      <Header />
+      <MovieList movies={MovieData} />
     </div>
   );
+};
 }
 
 export default App;
