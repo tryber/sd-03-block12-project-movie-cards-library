@@ -4,7 +4,7 @@ export default class Header extends React.Component {
   render() {
     const styles = {
       color: 'whitesmoke',
-      fontSize: '3rem', 
+      fontSize: '3rem',
     };
 
     return (
