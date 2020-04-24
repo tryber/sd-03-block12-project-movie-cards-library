@@ -1,0 +1,20 @@
+.cards {
+  border: red solid 1px;
+  width: 23%;
+}
+
+img {
+  width: 100%;
+}
+
+@media only screen and ( max-width : 360px ) {
+
+  .cards {
+    border: red solid 1px;
+    width: auto;
+  }
+
+  img {
+    display: none;
+  }
+}
