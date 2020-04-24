@@ -3,6 +3,7 @@ import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
+    // eslint-disable-next-line react/destructuring-assignment
     const { title, subtitle, storyline, rating, imagePath } = this.props.movie;
     const template = (
       <div className="movie-card">
@@ -16,7 +17,7 @@ class MovieCard extends React.Component {
           <Rating rating={rating} />
         </div>
       </div>
-      );
+    );
 
     return template;
   }
