@@ -11,10 +11,7 @@ class MovieCard extends React.Component {
         margin: 10,
         overflow: 'hidden',
       },
-      img: {
-        width: '100%',
-      },
-
+      img: { width: '100%' },
     };
 
     const movie = this.props.movie;
