@@ -41,11 +41,6 @@ img {
   width: 300px;
 }
 
-
-.movie-card-image {
-  width: 100%;
-}
-
 .movie-card-body {
   flex: 1 1 auto;
   padding: 20px;
