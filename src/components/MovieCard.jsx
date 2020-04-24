@@ -1,38 +1,38 @@
 import React from 'react';
 import Rating from './Rating';
 
+const styles = {
+  article: {
+    backgroundColor: 'whitesmoke',
+    border: 'solid 2px black',
+    borderRadius: '10%',
+    display: 'flex',
+    flexBasis: '41%',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    margin: 10,
+    overflow: 'hidden',
+  },
+  img: { width: '100%' },
+  h4: {
+    backgroundColor: 'rgb( 171, 171, 171 )',
+    fontSize: '1.5em',
+    margin: 0,
+    padding: 10,
+  },
+  h5: {
+    fontSize: '1em',
+    margin: 0,
+    padding: 5,
+  },
+  p: {
+    height: 100,
+    padding: 5,
+  },
+};
+
 class MovieCard extends React.Component {
   render() {
-    const styles = {
-      article: {
-        backgroundColor: 'whitesmoke',
-        border: 'solid 2px black',
-        borderRadius: '10%',
-        display: 'flex',
-        flexBasis: '41%',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
-        margin: 10,
-        overflow: 'hidden',
-      },
-      img: { width: '100%' },
-      h4: {
-        backgroundColor: 'rgb( 171, 171, 171 )',
-        fontSize: '1.5em',
-        margin: 0,
-        padding: 10,
-      },
-      h5: {
-        fontSize: '1em',
-        margin: 0,
-        padding: 5,
-      },
-      p: {
-        height: 100,
-        padding: 5
-      },
-    };
-
     const movie = this.props.movie;
     return (
       <article style={styles.article}>
