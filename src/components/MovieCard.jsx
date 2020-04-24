@@ -8,7 +8,7 @@ class MovieCard extends React.Component {
       <div>
         <h4>{movie.title}</h4>
         <h5>{movie.subtitle}</h5>
-        <img src={movie.imagePath} alt=''/>
+        <img src={movie.imagePath} alt="" />
         <p>{movie.storyline}</p>
         <Rating rating={movie.rating} />
       </div>
