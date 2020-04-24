@@ -3,12 +3,14 @@ import './App.css';
 import './components/Header';
 
 function App() {
-  return (
-    <div className="App">
-      {/* Sua implementação deve ficar aqui. Remova essas duas linhas e mão na massa */}
-      Hora de codar! 🚀✍️👨‍💻👩‍💻💪
-    </div>
-  );
+  render(){
+
+    return (
+      <div className="App">
+        <header />
+      </div>
+    );
+  }
 }
 
 export default App;
