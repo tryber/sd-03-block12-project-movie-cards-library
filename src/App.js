@@ -3,8 +3,7 @@ import './App.css';
 import './components/Header';
 
 function App() {
-  render(){
-
+  render() {
     return (
       <div className="App">
         <header />
