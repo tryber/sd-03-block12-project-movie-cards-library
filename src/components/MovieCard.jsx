@@ -7,7 +7,10 @@ class MovieCard extends React.Component {
       article: {
         border: 'solid 2px black',
         borderRadius: '10%',
+        display: 'flex',
         flexBasis: '36%',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
         margin: 10,
         overflow: 'hidden',
       },
