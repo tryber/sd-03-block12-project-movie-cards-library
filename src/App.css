@@ -69,7 +69,6 @@ body {
 }
 
 .rating {
-  align-self: end;
   background-color: #007bff;
   border-radius: 25px;
   color: white;
