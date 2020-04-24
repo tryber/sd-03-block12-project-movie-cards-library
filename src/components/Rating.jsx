@@ -1,7 +1,7 @@
 // implement Rating component here
 import React from 'react';
 
-class Raiting extends React.Component {
+class Rating extends React.Component {
   render() {
     const { rating } = this.props;
     return (
@@ -12,4 +12,4 @@ class Raiting extends React.Component {
   }
 }
 
-export default Raiting;
+export default Rating;

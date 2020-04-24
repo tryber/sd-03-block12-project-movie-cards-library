@@ -4,7 +4,7 @@ import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
-    const { title, subtitle, storyline, imagePath, rating } = this.props.cards;
+    const { title, subtitle, storyline, imagePath, rating } = this.props.movie;
     const movieLibCard = (
       <div className="movie-card">
         <img className="movie-card-image" src={imagePath} alt="test" />
@@ -19,11 +19,5 @@ class MovieCard extends React.Component {
     return movieLibCard;
   }
 }
-
-// 6 Crie um componente chamado MovieCard
-// Esse componente representa um cartão de filme.
-// MovieCard deve receber uma prop movie. Essa prop será um objeto,
-// contendo as propriedades,
-// title, subtitle, storyline, imagePath e rating.
 
 export default MovieCard;
