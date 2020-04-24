@@ -3,7 +3,7 @@ import Rating from './Rating';
 
 class MovieCard extends React.Component {
 
-  render(){
+  render() {
 
     const { title, subtitle, storyline, rating, imagePath } = this.props.movieCards;
 
