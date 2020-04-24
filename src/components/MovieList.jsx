@@ -4,11 +4,11 @@ import MovieCard from './MovieCard';
 class MovieList extends React.Component {
 
   render() {
-    const movies = this.props.movieList;
+    const movies = this.props.movies;
 
     return (
       <div className="movie-list">
-        { movies.map((element) => <MovieCard key={element.title} movieCards={element} />) }
+        { movies.map((element) => <MovieCard key={element.title} movie={element} />) }
       </div>
     );
   }
