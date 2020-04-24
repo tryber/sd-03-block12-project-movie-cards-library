@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-
+import Header from './components/Header';
+import MovieList from './components/MovieList';
 function App() {
   return (
     <div className="App">
-      {/* Sua implementação deve ficar aui. */}
-      Hora de codar! 🚀✍️👨‍💻👩‍💻💪
+      <Header />
+      <MovieList />
     </div>
   );
 }
