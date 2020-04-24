@@ -9,14 +9,28 @@ class MovieCard extends React.Component {
         border: 'solid 2px black',
         borderRadius: '10%',
         display: 'flex',
-        flexBasis: '36%',
+        flexBasis: '41%',
         flexDirection: 'column',
         justifyContent: 'space-between',
         margin: 10,
         overflow: 'hidden',
       },
-      h4: { backgroundColor: 'rgb( 171, 171, 171 )' },
       img: { width: '100%' },
+      h4: {
+        backgroundColor: 'rgb( 171, 171, 171 )',
+        fontSize: '1.5em',
+        margin: 0,
+        padding: 10,
+      },
+      h5: {
+        fontSize: '1em',
+        margin: 0,
+        padding: 5,
+      },
+      p: {
+        height: 100,
+        padding: 5
+      },
     };
 
     const movie = this.props.movie;
@@ -24,8 +38,8 @@ class MovieCard extends React.Component {
       <article style={styles.article}>
         <img src={movie.imagePath} alt={`cover of ${movie.title}`} style={styles.img} />
         <h4 style={styles.h4}>{movie.title}</h4>
-        <h5>{movie.subtitle}</h5>
-        <p>{movie.storyline}</p>
+        <h5 style={styles.h5}>{movie.subtitle}</h5>
+        <p style={styles.p}>{movie.storyline}</p>
         <Rating rating={movie.rating} />
       </article>
     );
