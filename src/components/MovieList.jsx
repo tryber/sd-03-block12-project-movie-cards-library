@@ -1,25 +1,13 @@
 // implement MovieList component here
 import React from 'react';
 import MovieCard from './MovieCard';
-import dataMovies from '../data';
+import '../App.css';
 
 class MovieList extends React.Component {
   render() {
     return (
-      <div>
-        {dataMovies.map((element) => (
-          <MovieCard
-            key={element.title}
-            movie={{
-              title: element.title,
-              subtitle: element.subtitle,
-              storyline: element.storyline,
-              imagePath: element.imagePath,
-              rating: element.rating,
-            }}
-          />
-        ))}
-
+      <div className="movie-list">
+        {this.props.movies.map((element) => <MovieCard key={element.title} movie={element} />)}
       </div>
     );
   }
