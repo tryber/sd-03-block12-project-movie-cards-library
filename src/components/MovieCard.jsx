@@ -5,7 +5,7 @@ class MovieCard extends React.Component {
   render() {
     const { title, subtitle, storyline, imagePath, rating } = this.props.movie;
     return (
-      <>
+      <div>
         <img src={imagePath} alt={title} />
         <h4>
           {title}
@@ -17,7 +17,7 @@ class MovieCard extends React.Component {
           {storyline}
         </p>
         <Rating rating={rating} />
-      </>
+      </div>
     );
   }
 }
