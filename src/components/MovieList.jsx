@@ -1,3 +1,5 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable prefer-destructuring */
 import React from 'react';
 import MovieCard from './MovieCard';
 
