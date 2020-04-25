@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       {/* Exemplo de comentário */}
       <Header />
-      <MovieList filmes={movies}/>
+      <MovieList movies={movies} />
     </div>
   );
 }
