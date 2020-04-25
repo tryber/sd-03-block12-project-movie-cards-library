@@ -1,11 +1,10 @@
 // implement MovieCard component here
 import React from 'react';
-// import movies from '../data';
-// import Rating from './Rating';
+import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
-    const { title, subtitle, storyline, imagePath, rating } = this.props.movie;
+    const { movie: { title, subtitle, storyline, imagePath, rating } } = this.props;
     return (
       <div className="movie-card">
         <div className="movie-card-body">
@@ -15,10 +14,10 @@ class MovieCard extends React.Component {
           <p className="movie-card-storyline">{storyline}</p>
           <nav className="rating">{rating}</nav>
         </div>
+        <Rating rating={rating} />
       </div>
     );
   }
 }
-// <Nota valor={rating}/>
 
 export default MovieCard;
