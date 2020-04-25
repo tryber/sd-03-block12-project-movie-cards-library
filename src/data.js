@@ -40,7 +40,7 @@ const movies = [
     storyline: 'At the opening party of a colossal, but poorly constructed, office building, a massive fire breaks out that threatens to destroy the tower and everyone in it.',
     rating: 7.0,
     imagePath: 'images/ToweringInferno.jpg',
-  }
+  },
 ];
 
 export default movies;
