@@ -10,5 +10,5 @@ class Rating extends React.Component {
     );
   }
 }
-
+// codeclimate
 export default Rating;

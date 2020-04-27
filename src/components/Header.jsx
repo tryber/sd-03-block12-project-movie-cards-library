@@ -1,7 +1,5 @@
 import React from 'react';
 
-// O texto deverá estar dentro de uma tag h1, que por sua vez deve estar dentro de uma tag header.
-
 class Header extends React.Component {
   render() {
     return (
