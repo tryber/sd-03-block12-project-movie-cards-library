@@ -1,11 +1,11 @@
 import React from 'react';
 
 class Rating extends React.Component {
-  render () {
+  render() {
     return (
-      <span className = 'rating'>{this.props.rating}</span>
-    )
+      <span className="rating">{this.props.rating}</span>
+    );
   }
 }
 
-export default Rating
+export default Rating;
