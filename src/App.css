@@ -44,6 +44,7 @@ body {
 
 .movie-card-body {
   flex: 1 1 auto;
+  flex-direction: column;
   padding: 20px;
 }
 
@@ -75,6 +76,7 @@ body {
 }
 
 .movie-card-rating {
+  align-self: flex-end;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   display: flex;
