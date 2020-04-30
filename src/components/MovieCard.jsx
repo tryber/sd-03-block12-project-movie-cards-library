@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 // const MovieList = () => (
 //   const { title, subtitle, storyline, rating, imagePath } = this.props.movie;
@@ -9,4 +9,4 @@ import React from 'react';
 //   )
 // );
 
-export default MovieList;
+// export default MovieList;
