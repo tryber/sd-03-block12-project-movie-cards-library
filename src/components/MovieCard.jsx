@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 // const MovieList = () => (
 //   const { title, subtitle, storyline, rating, imagePath } = this.PaymentResponse.movies;
@@ -10,4 +10,4 @@ import React from 'react';
 //   )
 // );
 
-export default MovieList;
+// export default MovieList;
