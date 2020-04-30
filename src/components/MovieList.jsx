@@ -2,7 +2,7 @@ import React from 'react';
 import MovieCard from './components/MovieCard';
 
 const MovieList = () => (
-  <div>
+  <div className="movie-list">
     {this.props.movies.map((movie) => (
       <MovieCard key={movie.title} movie={movie} />
     ))}
