@@ -8,14 +8,14 @@ export default class MovieCard extends React.Component {
     return (
       <section>
         {dataMovies.map(
-          ({ title, subtitle, storyline, rating, imagePath }) => 
+          ({ title, subtitle, storyline, rating, imagePath }) =>
             <MovieList
-            key={title}
-            title={title} 
-            subtitle={subtitle}
-            storyline={storyline}
-            rating={rating}
-            imagePath={imagePath} /> )}
+              key={title}
+              title={title}
+              subtitle={subtitle}
+              storyline={storyline}
+              rating={rating}
+              imagePath={imagePath} /> )}
       </section>
     );
   }

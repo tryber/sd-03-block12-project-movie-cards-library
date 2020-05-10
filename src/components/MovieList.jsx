@@ -3,21 +3,22 @@ import React from 'react';
 
 export default class MovieList extends React.Component {
   render() {
-    const { 
+    const {
       title,
       subtitle,
       storyline,
       rating,
-      imagePath } = this.props;
+      imagePath
+    } = this.props;
     return (
       <div>
         <p>
-          {title} <br/>
-          {subtitle} <br/>
-          {storyline} <br/>
+          {title} <br />
+          {subtitle} <br />
+          {storyline} <br />
           {rating}
         </p>
-        <img src={imagePath} alt={title}/>
+        <img src={imagePath} alt={title} />
       </div>
     );
   }
