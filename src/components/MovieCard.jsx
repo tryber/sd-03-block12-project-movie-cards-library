@@ -15,6 +15,6 @@ export default class MovieCard extends React.Component {
             storyline={storyline}
             rating={rating}
             imagePath={imagePath}
-          />) 
-  };
+          />);
+  }
 }
