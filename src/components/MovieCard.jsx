@@ -4,12 +4,12 @@ import MovieList from './MovieList';
 
 export default class MovieCard extends React.Component {
   render() {
-    const dataMovies = this.props.movies
+    const dataMovies = this.props.movies;
     return (
       <section>
         {dataMovies.map(
           ({ title, subtitle, storyline, rating, imagePath }) => 
-          <MovieList
+            <MovieList
             key={title}
             title={title} 
             subtitle={subtitle}

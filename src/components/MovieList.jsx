@@ -4,11 +4,11 @@ import React from 'react';
 export default class MovieList extends React.Component {
   render() {
     const { 
-      title, 
-      subtitle, 
-      storyline, 
-      rating, 
-      imagePath } = this.props
+      title,
+      subtitle,
+      storyline,
+      rating,
+      imagePath } = this.props;
     return (
       <div>
         <p>
