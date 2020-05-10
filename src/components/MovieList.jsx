@@ -8,7 +8,7 @@ export default class MovieList extends React.Component {
       subtitle,
       storyline,
       rating,
-      imagePath
+      imagePath,
     } = this.props;
     return (
       <div>
