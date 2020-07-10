@@ -34,13 +34,6 @@ const movies = [
     rating: 4.2,
     imagePath: 'images/Resident_Evil_Vendetta.jpg',
   },
-  {
-    title: 'The Towering Inferno',
-    subtitle: 'Inferno na Torre',
-    storyline: 'At the opening party of a colossal, but poorly constructed, office building, a massive fire breaks out that threatens to destroy the tower and everyone in it.',
-    rating: 7.0,
-    imagePath: 'images/ToweringInferno.jpg',
-  },
 ];
 
 export default movies;
